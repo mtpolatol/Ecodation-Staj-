@@ -1,0 +1,86 @@
+/* Comment*/
+.digerClass {
+    color: orange;
+    font-size: 2rem !important;
+}
+
+div {
+    background-color: yellowgreen;
+    width: 200px;
+    height: 200px;
+
+    /* color:blue; 0=siyah f=beyaz */
+    /* color:#fff; */
+    /* color:#f2f2f2; */
+    /* color:rgb(102, 5, 96);
+    color:rgba(102, 5, 96,0.8); */
+    color: rgba(110, 26, 105, .8);
+
+    /*margin:dış boşluk
+     margin-top:5px;
+    margin-right:100px;
+    margin-bottom:15px;
+    margin-left:12px; */
+    margin: 5px 100px 15px 12px;
+    /* margin:12px 24px; */
+
+    /*iç boşluk*/
+    padding: 50px 20px 30px 40px;
+
+    /* border:2px dotted blue;
+    border-radius: 50%; */
+    border: 2px solid blue;
+    border-top-right-radius: 50%;
+
+    /*font*/
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    font-style: italic;
+}
+
+
+/* icon */
+i {
+    color: blue !important;
+    margin-left: 40px;
+    margin-top: 55px;
+    font-size: 60px !important;
+}
+
+
+#px {
+    margin-left: 12px;
+    margin-top: 15px;
+    font-size: 10px;
+    font-weight: 500;
+    text-align: justify;
+    text-decoration: underline;
+    text-transform: capitalize;
+    text-shadow: -.1px .2px blue;
+    column-count: 3;
+    column-rule: 2px solid red;
+    word-spacing: 4px;
+    letter-spacing: 1px;
+    line-height: 45px;
+}
+
+.clearfix::before {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+.deneme {
+    display: inline-block;
+    float: right;
+}
+
+/* liste */
+ul {
+    list-style-type: none;
+    text-decoration: line-through;
+    text-decoration: none;
+}
+
+/*Group Selector*/
