@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Title</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+  <meta name="description" content="Html5 Css3 Js Bootstrap  TypeScript öğrenmek " />
+  <meta name="keywords" content="Html5 Css3 Js Bootstrap  TypeScript" />
+  <meta name="author" content="Hamit Mızrak" />
+  <meta name="title" content="JavaScript Kursumuz" />
+
+
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+
+  <script src="egitim/js/template5.js"></script>
+</head>
+
+<body>
+  <!-- start codes  -->
+  <!-- önce ödevdeki kodları yazmak sonra projemize giydirmek: meta tagleri -->
+
+  <!-- CEO optimizasyon (meta tagleri)
+  ödevleri
+  event 
+  debug
+  listener ()
+  typeScript  -->
+
+
+  <!-- //ÖDEV:
+//login 
+//kullanıcı email  
+<input name="adi" id="adi_id" class="" required />
+//kullanıcı  şifre
+//temizle gönder (event)
+
+<h3>hamitmizrak@gmail.com 4656455</h3>
+
+//email: hamitmizrak@gmail.com
+// hamitmizrak     gmail.com  sonrasında bu iki yapıyı diziye atayalım
+//email şifre h3 taginde : hamitmizrak@gmail.com 4656455 Gönde -->
+
+
+  <!-- ui:user interface -->
+  <!-- emmet: 
+div.container>h1.text-center{Form Information}+form>(div.row>div.col-md-3{Email:}+div.col-md-9>div.form-group>input.form-control)*2+div.btn-group>button*2
+-->
+
+  <div class="container">
+    <h1 class="text-center">Form Information</h1>
+    <!-- onsubmit:form gönderilmeden önce kontrol ettiğimiz yerdir
+  this: hangi formun olduğunu göstermek için kullanıyoruz.
+  -->
+    <form action="#" method="get" name="form" id="form" onsubmit="onChecked(this)">
+      <div class="row">
+        <div class="col-md-2">Email:</div>
+        <div class="col-md-10">
+          <div class="form-group">
+            <input type="email" name="email" id="email" class="form-control" placeholder="Lütfen email giriniz"
+              autofocus />
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-2">Password:</div>
+        <div class="col-md-10">
+          <div class="form-group">
+            <input type="password" name="password" id="password" class="form-control"
+              placeholder="Lütfen password giriniz" />
+          </div>
+        </div>
+      </div>
+
+
+      <div class="row">
+        <div class="col-md-2">sub</div>
+        <div class="col-md-10">
+          <div class="btn-group">
+            <input type="reset" class="btn btn-danger mr-3" value="Temizle">
+            <button type="submit" class="btn btn-primary" onclick="allSubmit()">Gönder</button>
+          </div>
+        </div>
+
+
+    </form>
+    <h2 id="showId">...</h2>
+
+  </div>
+
+
+
+
+
+
+  <!-- ends codes -->
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+  </script>
+</body>
+
+</html>
