@@ -1,1 +1,1 @@
-# staj
+# Ecodaiton JavaScript staj
